@@ -1,0 +1,43 @@
+.movie-image{
+  height: 400px;
+  width: 300px;
+}
+.spinner{
+ height:  730px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+h1{
+  text-align: center;
+  font-style: italic;
+  font-family: cursive;
+  color: rgb(225,91,100);
+}
+p{
+  font-size: large;
+  font-weight:500;
+  font-family: cursive;
+}
+strong{
+  color:rgb(171,189,129);
+  font-family: cursive;
+}
+.movie{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  border: 2px solid rgb(244,126,96);
+  overflow: hidden;
+  width: 350px;
+  padding: 10px;
+}
+.movies{
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+  
+}
